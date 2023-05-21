@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484B640129FAF3F9003000B8 /* CreateTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B640029FAF3F9003000B8 /* CreateTabBarController.swift */; };
+		484B640729FBE047003000B8 /* BasketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484B640629FBE047003000B8 /* BasketTableViewController.swift */; };
+		4876375729EC634E00527A77 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4876375629EC634E00527A77 /* RegisterViewController.swift */; };
+		4892F4F929C63DD500AF5C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F4F829C63DD500AF5C92 /* AppDelegate.swift */; };
+		4892F4FB29C63DD500AF5C92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F4FA29C63DD500AF5C92 /* SceneDelegate.swift */; };
+		4892F4FD29C63DD500AF5C92 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F4FC29C63DD500AF5C92 /* MainViewController.swift */; };
+		4892F50529C63DD700AF5C92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4892F50329C63DD700AF5C92 /* LaunchScreen.storyboard */; };
+		4892F50D29D20D1000AF5C92 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F50C29D20D1000AF5C92 /* SettingViewController.swift */; };
+		4892F50F29D3626000AF5C92 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4892F50E29D3625F00AF5C92 /* Models.swift */; };
+		489723362A129EC000679428 /* CatalogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489723352A129EC000679428 /* CatalogTableViewController.swift */; };
+		489723382A129F7800679428 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489723372A129F7800679428 /* TopViewController.swift */; };
+		4897233A2A129FBC00679428 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489723392A129FBC00679428 /* FavoriteViewController.swift */; };
+		8504F4392A191B4F0064DE41 /* CustomTextFieild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8504F4382A191B4F0064DE41 /* CustomTextFieild.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		484B640029FAF3F9003000B8 /* CreateTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTabBarController.swift; sourceTree = "<group>"; };
+		484B640629FBE047003000B8 /* BasketTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketTableViewController.swift; sourceTree = "<group>"; };
+		4876375629EC634E00527A77 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4892F4F529C63DD500AF5C92 /* LeboPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeboPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4892F4F829C63DD500AF5C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4892F4FA29C63DD500AF5C92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4892F4FC29C63DD500AF5C92 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4892F50129C63DD700AF5C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4892F50429C63DD700AF5C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4892F50629C63DD700AF5C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4892F50C29D20D1000AF5C92 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		4892F50E29D3625F00AF5C92 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		489723352A129EC000679428 /* CatalogTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewController.swift; sourceTree = "<group>"; };
+		489723372A129F7800679428 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		489723392A129FBC00679428 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		8504F4382A191B4F0064DE41 /* CustomTextFieild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieild.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4892F4F229C63DD500AF5C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484B640229FBDD15003000B8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4892F4FA29C63DD500AF5C92 /* SceneDelegate.swift */,
+				4892F4F829C63DD500AF5C92 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		484B640329FBDD36003000B8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4892F4FC29C63DD500AF5C92 /* MainViewController.swift */,
+				489723372A129F7800679428 /* TopViewController.swift */,
+				489723352A129EC000679428 /* CatalogTableViewController.swift */,
+				484B640629FBE047003000B8 /* BasketTableViewController.swift */,
+				489723392A129FBC00679428 /* FavoriteViewController.swift */,
+				4892F50C29D20D1000AF5C92 /* SettingViewController.swift */,
+				484B640029FAF3F9003000B8 /* CreateTabBarController.swift */,
+				4876375629EC634E00527A77 /* RegisterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		484B640429FBDD96003000B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4892F50E29D3625F00AF5C92 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		484B640529FBDDBC003000B8 /* Resouseds */ = {
+			isa = PBXGroup;
+			children = (
+				4892F50129C63DD700AF5C92 /* Assets.xcassets */,
+			);
+			path = Resouseds;
+			sourceTree = "<group>";
+		};
+		4892F4EC29C63DD500AF5C92 = {
+			isa = PBXGroup;
+			children = (
+				4892F4F729C63DD500AF5C92 /* LeboPro */,
+				4892F4F629C63DD500AF5C92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4892F4F629C63DD500AF5C92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4892F4F529C63DD500AF5C92 /* LeboPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4892F4F729C63DD500AF5C92 /* LeboPro */ = {
+			isa = PBXGroup;
+			children = (
+				8504F4372A191A900064DE41 /* Views */,
+				484B640229FBDD15003000B8 /* App */,
+				484B640329FBDD36003000B8 /* ViewControllers */,
+				484B640429FBDD96003000B8 /* Models */,
+				484B640529FBDDBC003000B8 /* Resouseds */,
+				4892F50329C63DD700AF5C92 /* LaunchScreen.storyboard */,
+				4892F50629C63DD700AF5C92 /* Info.plist */,
+			);
+			path = LeboPro;
+			sourceTree = "<group>";
+		};
+		8504F4372A191A900064DE41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8504F4382A191B4F0064DE41 /* CustomTextFieild.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4892F4F429C63DD500AF5C92 /* LeboPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4892F50929C63DD700AF5C92 /* Build configuration list for PBXNativeTarget "LeboPro" */;
+			buildPhases = (
+				4892F4F129C63DD500AF5C92 /* Sources */,
+				4892F4F229C63DD500AF5C92 /* Frameworks */,
+				4892F4F329C63DD500AF5C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeboPro;
+			productName = LoginAppInCode;
+			productReference = 4892F4F529C63DD500AF5C92 /* LeboPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4892F4ED29C63DD500AF5C92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					4892F4F429C63DD500AF5C92 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 4892F4F029C63DD500AF5C92 /* Build configuration list for PBXProject "LeboPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4892F4EC29C63DD500AF5C92;
+			productRefGroup = 4892F4F629C63DD500AF5C92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4892F4F429C63DD500AF5C92 /* LeboPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4892F4F329C63DD500AF5C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4892F50529C63DD700AF5C92 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4892F4F129C63DD500AF5C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4897233A2A129FBC00679428 /* FavoriteViewController.swift in Sources */,
+				484B640129FAF3F9003000B8 /* CreateTabBarController.swift in Sources */,
+				8504F4392A191B4F0064DE41 /* CustomTextFieild.swift in Sources */,
+				4892F4FD29C63DD500AF5C92 /* MainViewController.swift in Sources */,
+				4892F4F929C63DD500AF5C92 /* AppDelegate.swift in Sources */,
+				484B640729FBE047003000B8 /* BasketTableViewController.swift in Sources */,
+				489723382A129F7800679428 /* TopViewController.swift in Sources */,
+				4892F4FB29C63DD500AF5C92 /* SceneDelegate.swift in Sources */,
+				4892F50D29D20D1000AF5C92 /* SettingViewController.swift in Sources */,
+				489723362A129EC000679428 /* CatalogTableViewController.swift in Sources */,
+				4876375729EC634E00527A77 /* RegisterViewController.swift in Sources */,
+				4892F50F29D3626000AF5C92 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4892F50329C63DD700AF5C92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4892F50429C63DD700AF5C92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4892F50729C63DD700AF5C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4892F50829C63DD700AF5C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4892F50A29C63DD700AF5C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2Q75YJGX45;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeboPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nasim-nozirov.LeboPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4892F50B29C63DD700AF5C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LeboPro/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nasim-nozirov.LeboPro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4892F4F029C63DD500AF5C92 /* Build configuration list for PBXProject "LeboPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4892F50729C63DD700AF5C92 /* Debug */,
+				4892F50829C63DD700AF5C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4892F50929C63DD700AF5C92 /* Build configuration list for PBXNativeTarget "LeboPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4892F50A29C63DD700AF5C92 /* Debug */,
+				4892F50B29C63DD700AF5C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4892F4ED29C63DD500AF5C92 /* Project object */;
+}

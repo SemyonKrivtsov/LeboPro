@@ -11,20 +11,28 @@ import UIKit
 class BasketTableViewController: UITableViewController {
     
     private let model = Basket.getProduct()
-    
-//    override func viewDidAppear(_ animated: Bool) {
-//        super.viewDidAppear(animated)
-////        let height: CGFloat = 100
-////
-////        let bounds = navigationController?.navigationBar.bounds
-////        navigationController?.navigationBar.frame = CGRect(x: 0, y: 0, width: bounds?.width ?? 0, height: bounds?.height ?? 0 + height)
-//    }
-    
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let height:CGFloat = 100
+        let viewNavBar = UIView(frame: CGRect(
+            origin: CGPoint(x: 0, y:0),
+            size: CGSize(width: self.view.frame.size.width, height: height)))
+        viewNavBar.backgroundColor = .red
+        let label = UILabel()
+        label.textColor = .black
+        label.text = "Корзина"
+        viewNavBar.addSubview(label)
+        label.translatesAutoresizingMaskIntoConstraints = false
+
+        NSLayoutConstraint.activate([label.widthAnchor.constraint(equalToConstant: 200), label.centerXAnchor.constraint(equalTo: viewNavBar.centerXAnchor), label.centerYAnchor.constraint(equalTo: viewNavBar.centerYAnchor)])
+        self.navigationController?.navigationBar.addSubview(viewNavBar)
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController?.navigationBar.frame.size = UINavigationBar().sizeThatFits(CGSize(width: navigationController?.navigationBar.frame.size.width ?? 0, height: 50))
 //        navigationItem.title = "Корзина"
         let label = UILabel()
         label.textColor = .black
